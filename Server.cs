@@ -19,7 +19,7 @@ namespace ListeningSocketTest
         {
             ipHostInfo = Dns.GetHostEntry(Dns.GetHostName());
             ipAddress = ipHostInfo.AddressList[0];
-            localEndPoint = new IPEndPoint(ipAddress, 11000);
+            localEndPoint = new IPEndPoint(ipAddress, 52525);
             data = null;
             bytes = new byte[1024];
         }
